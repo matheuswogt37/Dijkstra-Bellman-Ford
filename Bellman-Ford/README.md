@@ -51,6 +51,6 @@
 - "The DSA course helped me a lot in clearing the interview rounds. It was really very helpful in setting a strong foundation for my problem-solving skills. Really a great investment, the passion Sandeep sir has towards DSA/teaching is what made the huge difference." - Gaurav | Placed at Amazon
 - Before you move on to the world of development, master the fundamentals of DSA on which every advanced algorithm is built upon. Choose your preferred language and start learning today: 
 
-## Sorces:
+## Sources:
 *(obs: y/m/d)*
 - (2024/06/07) [greeksgeeksforgeeks](https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/)
