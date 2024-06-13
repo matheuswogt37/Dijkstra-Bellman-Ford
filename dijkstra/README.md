@@ -24,20 +24,24 @@ Edges had another structure:
 Vertice *A and *B store the vertices that edge connect \
 unsigned distance is the distance between vertice A and B \
 
-To find the shortest path, diskjtra use best_estimative logical
+To find the shortest path bether two points, diskjtra use best_estimative logical
 
 ## Best_estimative
 
 The best_estimative can be divided into two steps:
 
 1. estimate the distance between actualy vertice and connected vertices, to every edge do:
-    1. get actualy distance
-    2. add with edge distance
-    3. if distance is minor
+    1. lets say the actualy vertice A, and the other vertice on edge is B
+    2. get A best_distance
+    3. add with edge distance
+    4. if result is minor than B best_distance then:
+        1. B best_distance = result
+        2. B prev_path = A
+    5. else do nothing
+    6. repet 1-5 to all other paths
+2.  check what path vertice had the minor best_distance and go to him
 
 Usually represented to find the path from start vertice to ALL others, but can be used to find between start and end vertices \
-
-Find the path using the best_estimative logical, check the distances between actualy vertice and the vertices that exist a edge, a path between two vertices,
 
 ## References
 
